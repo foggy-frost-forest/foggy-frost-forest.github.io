@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-title                    : "个人主页"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : "Zhenyu Liu"
 description              : "Homepage of Zhenyu Liu"
