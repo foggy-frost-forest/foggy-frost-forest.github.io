@@ -2,7 +2,7 @@
 title: "PPAT: Progressive Graph Pairwise Attention Network for Event Causality Identification"
 collection: publications
 permalink: /publication/2023-08-PPAT
-excerpt: ''
+excerpt: '这篇文章提出了一个事件因果推理图神经网络，极大提升事件因果识别效果。'
 venue: 'IJCAI 2023'
 date: 2023-08-25
 paperurl: 'https://www.ijcai.org/proceedings/2023/0572.pdf'
