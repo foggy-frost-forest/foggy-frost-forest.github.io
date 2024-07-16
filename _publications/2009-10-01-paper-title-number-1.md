@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "PPAT: Progressive Graph Pairwise Attention Network for Event Causality Identification"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/PPAT
+excerpt: '这篇文章提出了一个事件因果推理图神经网络，极大提升事件因果识别效果。'
+venue: 'IJCAI 2023'
+date: 2023-08
+paperurl: 'https://www.ijcai.org/proceedings/2023/0572.pdf'
+codeurl: 'https://github.com/HITsz-TMG/PPAT'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+这是我们在事件的因果关系上的探究成果，我们提出了PPAT模型，用于识别文档所有的事件对中是否存在因果关系。通过显式的区分句内和跨句的事件因果，PPAT先推理较简单的句内事件因果关系，之后基于句内事件因果关系推理较难的跨句事件因果关系。PPAT利用一种Pairwise的图神经网络以适配因果推理的“前提-结论”模式，极大的提升了模型的推理效果。
